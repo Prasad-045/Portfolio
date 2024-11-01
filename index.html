@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>
+    function scrollToTop(){
+    window.scrollTo({
+        top:0,
+        behavior:"smooth"
+    });
+
+    } 
+    </script>
+    <link rel="stylesheet" href="./style.css">
+ <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My PortFolio</title>
+</head>
+<body>
+    <header>
+       <nav >
+        <div id="logo">
+        <h2>Shiva <span>Pra</span>sad</h2>
+        </div>
+        <div id="nav-items">
+          <ul>
+            <li><a href="#about-me">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projtitles">Projects</a></li>
+            <li><a href="#contactme">Contact</a></li>
+          </ul>
+        </div>
+       </nav>
+    </header>
+    <section id="intro">
+     
+            <img style="width: 450px;height: 450px; border-radius: 200px;" src="https://www.iwmbuzz.com/wp-content/uploads/2020/07/we-love-these-funky-suit-styles-from-rohit-sharma-3-900x1024.jpg" alt="error">
+       
+        <div id="bio">
+         <h4>Hello,I'm</h4>
+         <h1>Shiva Prasad</h1>
+         <h3>Frontend Developer</h3>
+         
+         <a href="./ShivaPrasad__Gorige_Resume.pdf"><button  id="b1">Download CV</button></a>
+         <a href="#contactme"><button id="b2">Contact Info</button> </a><br> <br>
+         
+         <a  href="https://www.linkedin.com/in/gorigeshivaprasad/"><i id="linkedin" class="fa-brands fa-linkedin"></i></a>
+         <a href="https://github.com/Prasad-045"><i class="fa-brands fa-github"></i></a>
+
+
+        </div>
+        
+    </section>
+    <div id="about-me">
+        <p>Get to Know more</p>
+        <h2>About Me</h2>
+    </div>
+
+    <div >
+        <i id="arrow" onclick="scrollToTop()"class="fa-solid fa-arrow-up"></i>
+    </div>
+    <main>
+        <div id="left">
+            <img style="width: 500px;height: 500px; border-radius: 50px;" src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/ce985b95215943.5e9230e4ace65.jpg" alt="">
+        </div>
+        <div id="right">
+            <div id="top">
+                <div class="left">
+                    <i class="fa-solid fa-award"></i>
+                    <h3>Experience</h3>
+                    <p>1 Year</p>
+                    <p>Frontend Development</p>
+                </div>
+                <div class="right">
+                    <i class="fa-solid fa-users"></i>
+                    <h3>Education</h3>
+                    <p>Bachelor's Degree</p>
+                    <p>Electrical and Electronics</p>
+                </div>
+            </div>
+            <div id="bottom">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore illum amet eveniet quaerat error quod incidunt! Ab reiciendis nam deleniti sit in error dignissimos inventore impedit iure labore quas modi quis praesentium maiores, eaque, doloremque odio! Possimus, ea commodi! Id accusantium rem similique cum dolorem omnis iste eveniet sunt, itaque deleniti adipisci dolore iure eligendi officiis consequuntur? Deleniti dolorem, nesciunt aliquid ratione cupiditate maiores maxime commodi, accusamus magnam quae ullam expedita inventore praesentium soluta ipsum sapiente dicta natus excepturi eum accusantium temporibus provident voluptates. Explicabo est assumenda mollitia, quibusdam nostrum, libero, odit pariatur tenetur ex perspiciatis molestiae quasi obcaecati dignissimos.</p>
+            </div>
+        </div>
+    </main>
+    <div id="experience">
+        <p>Explore My</p>
+        <h2>Experience</h2>
+    </div>
+    <div id="titles">
+       <h2>Frontend Development</h2>
+       <h2>Backend Development</h2>
+    </div>
+    <div id="skills">
+<div id="frontend">
+  
+     <div>
+       
+        <div><h3>  <i class="fa-solid fa-square-check"></i> HTML</h3><p>Experienced</p></div>
+        <div><h3> <i class="fa-solid fa-square-check"></i>CSS</h3><p>Experienced</p></div>
+     </div>
+       <div>
+        
+    <div><h3> <i class="fa-solid fa-square-check"></i>JAVASCRIPT</h3><p>Basic</p></div>
+    <div><h3> <i class="fa-solid fa-square-check"></i>REACT JS</h3><p>Basic</p></div>
+       </div>
+</div>
+<div id="backend">
+  
+<div><h3> <i class="fa-solid fa-square-check"></i>NODE JS</h3><p>Basic</p></div>
+<div><h3> <i class="fa-solid fa-square-check"></i>MANGO DB</h3><p>Basic</p></div>
+</div>
+    </div>
+    <div id="projtitles">
+       <p>Browse My Recent</p>
+       <h2>Projects</h2>
+    </div>
+    
+    <div id="projects">
+     <div>
+        <img  id="proj1" src="./Screenshot 2024-10-20 183005.png" alt="">
+        <h2>Project One</h2>
+        <button onclick="project1()">Github</button>
+       <a href="./Business_Homepage/index.html"><button>live demo</button></a>
+    </div>
+    <div>
+        <img id="proj2" src="./Screenshot 2024-10-20 183803.png" alt="">
+        <h2>Project Two</h2>
+        <button>Github</button>
+        <a href="./index.html"><button>live demo</button></a>
+        
+     </div>
+     <div>
+        <img id="proj3" src="./Screenshot 2024-10-20 184909.png" alt="">
+        <h2>Project Three</h2>
+        <button>Github</button>
+        <a href="./Card_task/index.html"><button>live demo</button></a>
+      </div>
+    </div>
+    <div id="contactme">
+        <p>Get in touch</p>
+        <h2>Contact Me</h2>
+        <h4>9502662063</h4>
+        <i class="fa-solid fa-phone"></i>
+        <i class="fa-brands fa-whatsapp"></i>
+    
+     </div>
+     <footer>
+        <div id="footer">
+            <ul>
+              <li><a href="#about">About</a></li>
+              <li><a href="#experience">Experience</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+     </footer>
+     
+</body>
+</html>
