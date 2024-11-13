@@ -103,7 +103,7 @@ color: white;
 
 #arrow{
     position: fixed;
-    top: 100px;
+    top: 800px;
     right: 70px;
     scroll-behavior: smooth;
     z-index: 2;
