@@ -7,10 +7,13 @@
         top:0,
         behavior:"smooth"
     });
+  
 
     } 
     </script>
+    <script src="./script.js"></script>
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./mediaQueries.css">
  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,7 +21,7 @@
 </head>
 <body>
     <header>
-       <nav >
+       <nav id="desktop-nav" >
         <div id="logo">
         <h2>Shiva <span>Pra</span>sad</h2>
         </div>
@@ -31,10 +34,33 @@
           </ul>
         </div>
        </nav>
+       <nav id="hamburger-nav">
+            
+                <div id="logo">
+                <h2>Shiva <span>Pra</span>sad</h2>
+                </div>
+                <div id="hamburger-menu">
+                    <div class="hamburger-icon" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    </div>
+                </div> 
+                <div class="menu-links">
+                    <ul>
+                        <li><a href="#about-me" onclick="toggleMenu()">About</a></li>
+                        <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                        <li><a href="#projtitles"onclick="toggleMenu()">Projects</a></li>
+                        <li><a href="#contactme" onclick="toggleMenu()">Contact</a></li>
+                    </ul>
+
+                </div> 
+            
+       </nav>
     </header>
     <section id="intro">
      
-            <img style="width: 450px;height: 450px; border-radius: 200px;" src="https://www.iwmbuzz.com/wp-content/uploads/2020/07/we-love-these-funky-suit-styles-from-rohit-sharma-3-900x1024.jpg" alt="error">
+            <img id="roh-image" style="width: 450px;height: 450px; border-radius: 200px;" src="https://www.iwmbuzz.com/wp-content/uploads/2020/07/we-love-these-funky-suit-styles-from-rohit-sharma-3-900x1024.jpg" alt="error">
        
         <div id="bio">
          <h4>Hello,I'm</h4>
@@ -62,7 +88,7 @@
     
     <main>
         <div id="left">
-            <img style="width: 500px;height: 500px; border-radius: 50px;" src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/ce985b95215943.5e9230e4ace65.jpg" alt="">
+            <img id="ro-image" style="width: 500px;height: 500px; border-radius: 50px;" src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/ce985b95215943.5e9230e4ace65.jpg" alt="...">
         </div>
         <div id="right">
             <div id="top">

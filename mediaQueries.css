@@ -1,0 +1,98 @@
+@media screen and (max-width:1200px) {
+    #desktop-nav{
+        display: none;
+    }
+    #hamburger-nav{
+       display: flex;
+       justify-content: space-between;
+       gap: 150px;
+      
+    }
+   body{text-align: justify;}
+   header{
+    margin-left: 80px;
+   }
+    #intro{
+        display: flex;
+       
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    #roh-image{
+        margin-left: 30px;
+    }
+    #bio{
+        margin-left: 100px;
+        margin-bottom: -150px;
+    }
+    main{
+        
+        font-size: 10px;
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+    }
+    main img{
+        width: 300px;
+        height: 300px;
+    }
+    #bottom p{
+        width: 400px;
+        
+    }
+    #experience{
+        margin-left: 100px;
+    }
+   
+    #right div{
+       margin-top: 20px;
+        margin-left: 50px;
+    }
+    #skills{
+        margin-left: 90px;
+        display: flex;
+        flex-direction: row;
+        gap: 50px;
+    }
+    #footer ul{
+        display: flex;
+        margin-left: 100px;
+        flex-direction: column;
+        text-align: justify;
+    }
+    #footer li{
+      
+        margin: 20px;
+    }   
+    #projects{
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+      
+    }
+    #projects div{
+        width: 400px;
+    }
+    #frontend{
+        display: flex;
+        flex-wrap: wrap;
+        height: fit-content;
+        width: fit-content;
+    }
+    #backend{
+        display: flex;
+        padding-top: 125px;
+        padding-bottom: 125px;
+        height: fit-content;
+        flex-wrap: wrap;
+        width: fit-content;
+    }
+    #contactme{
+        margin-left: 100px;
+
+    }
+    #titles{
+        margin-left: 100px;
+        gap: 20px;
+    }
+}
